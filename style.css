@@ -1,0 +1,101 @@
+
+/* Generic Section */
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header{
+    margin:100px auto;
+}
+.header-bg{
+    background-color: rgba(31, 31, 30,0.65);
+    box-shadow: 0px 10px 0px rgb(238, 234, 234);
+}
+.header-overlay{
+    background-color: rgba(230, 219, 219, 0.2);
+    
+}
+
+.heading{
+    text-transform: uppercase;
+    color:yellow;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+
+
+
+.nav-tabs{
+    color:#fff;
+    font-weight: 700;
+}
+
+input[type='text']{
+    margin-left:8px;
+}
+
+.nav-item{
+    padding-bottom: 10px;
+    
+}
+.nav-item{
+    color:white;
+    text-decoration: none;
+}
+.nav-item a{color:#fff;}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    position: absolute;
+    padding: 10px;
+}
+
+.fa-plane{
+    color:yellow;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa-map-marker-alt {
+  position: absolute;
+  padding: 10px;
+}
+
+/* align icon */
+.left-addon .fa-map-marker-alt  { left:  0px;top:-8px;color:#000;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px;}
+.right-addon input { padding-right: 30px; }
+
+.input-group>.input-group-append>.input-group-text{
+    height: 38px;
+}
+.tab-content{
+    color:white;
+}
+
+@media screen and (max-width: 568px) {
+    .input-group>.form-control:not(:last-child){
+        
+    }
+    .btn{
+        text-align: center;
+        margin:auto;
+        width:100%;
+    }
+    .inner-addon input{
+        width:100%!important;
+    }
+  }
